@@ -1,0 +1,15 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+<p>${message}</p>
+<form action="Servlet" method="post">
+    <input name="phone" type="text" pattern="[0-9]{6}" placeholder="phone"><br>
+    <input name="email" type="text" placeholder="email"><br>
+    <input type="submit" value="ok">
+</form>
+</body>
+</html>
+
